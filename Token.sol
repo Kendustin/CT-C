@@ -182,7 +182,7 @@ contract Ownable is Context {
 
 pragma solidity ^0.6.2;
 
-contract PemadamToken is Context, IERC20, Ownable {
+contract Pusatairmimum is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -198,8 +198,8 @@ contract PemadamToken is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'PemadamToken';
-    string private _symbol = 'PDAM';
+    string private _name = 'Pusat Air Minum';
+    string private _symbol = 'PAM';
     uint8 private _decimals = 9;
 
     bool public LimitMode = false;
