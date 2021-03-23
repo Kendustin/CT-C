@@ -25,8 +25,7 @@ abstract contract Context {
 
 pragma solidity ^0.6.0;
 
-import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol';
-import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol';
+import "https://github.com/ethereum/ethereum-org/blob/master/solidity/token-erc20.sol"
 
 contract PekerjaaUmum is ERC20 {
     constructor(uint256 initialSupply) public ERC20("PekerjaanUmum", "PU") {
