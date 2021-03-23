@@ -1,5 +1,7 @@
 // PU is modified of RFI on Binance Smart Chain
 
+// SPDX-License-Identifier: MIT
+
 pragma solidity ^0.6.0;
 
 /*
@@ -27,7 +29,7 @@ pragma solidity ^0.6.0;
 
 import "https://github.com/ethereum/ethereum-org/blob/master/solidity/token-erc20.sol"
 
-contract PekerjaaUmum is ERC20 {
+contract PekerjaanUmum is ERC20 {
     constructor(uint256 initialSupply) public ERC20("PekerjaanUmum", "PU") {
         _mint(msg.sender, initialSupply);
     }
