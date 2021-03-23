@@ -31,9 +31,7 @@ contract PekerjaaUmum is ERC20 {
     }
 }
 
-import "https://github.com/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
-
-import "https://github.com/openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 
 // File: openzeppelin-solidity\contracts\utils\Address.sol
