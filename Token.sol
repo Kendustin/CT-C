@@ -1,4 +1,4 @@
-// PU is RFI on Binance Smart Chain
+// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.6.0;
 
@@ -482,7 +482,7 @@ contract Ownable is Context {
 
 pragma solidity ^0.6.2;
 
-    contract PU is Context, IERC20, Ownable {
+    contract PekerjaanUmum is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
